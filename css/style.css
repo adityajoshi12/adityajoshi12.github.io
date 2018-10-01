@@ -1749,7 +1749,7 @@ blockquote {
 .blog-detail .bg-struct, .project-detail .bg-struct {
   height: 300px; }
 .blog-detail .blog-sec .mdl-card .mdl-card__title .main-blogpost-img.blog-img, .project-detail .blog-sec .mdl-card .mdl-card__title .main-blogpost-img.blog-img {
-  background: url(../img/gallery5.jpg);
+  background: url(../img/image_post.jpg);
   background-size: cover;
   background-position: center; }
 .blog-detail .blog-sec .mdl-card .mdl-card__title .main-blogpost-img.blog-img,
