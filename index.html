@@ -879,7 +879,7 @@
 								<div id="form_card_height" class="col-sm-7 mb-30">
 									<div  class="mdl-card mdl-shadow--2dp" data-ng-controller="ContactController">
 										<h4 class="mb-10 font-unsetcase">Hey <span  data-ng-bind="formData.inputName||'There'">There</span>, happy to hear from you.</h4>
-										<form data-ng-submit="submit(contactform, $event)"  name="contactform"  method="post" class=" form-horizontal mb-30" role="form">
+										<form action="https://script.google.com/macros/s/AKfycbw63FEcVvOdaRs5Ff0RCpYZV4MCwNNnZRZt3wr9tg/exec"  name="contactform"  method="post" class="gform" role="form">
 											<div class="form-group" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
 												<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 													<input autocomplete="off" data-ng-model="formData.inputName" class="mdl-textfield__input" type="text" id="inputName" name="inputName" required>
